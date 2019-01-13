@@ -8,7 +8,6 @@ h1 {
 	color: #25408f;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 500%;
-
 	line-height: 90%;
 }
 
@@ -25,19 +24,22 @@ ul {
 	list-style-type: none;
 }
 
-.fab {
-	color: #969696;
-	font-size: 200%;
+img{
+	height:100%;
+	width:auto;
+	margin: auto;
+	position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    visibility: hidden;
+    animation-name: fadeIn;
+    animation-duration: 4s;
 }
 
-.far {
-	color: #969696;
-	font-size: 200%;
-}
-
-.links {
-    display: inline-flex;
-    padding-right: 2em;
+@keyframes fadeIn {
+	from { opacity:0; } to { opacity:1; }
 }
 
 .description {
@@ -53,6 +55,45 @@ ul {
 	padding-top: 1em;
 }
 
+.fab {
+	color: #969696;
+	font-size: 200%;
+}
+
+.fab:hover {
+	color: #414141;
+	font-size: 200%;
+}
+
+.far {
+	color: #969696;
+	font-size: 200%;
+}
+
+.far:hover {
+	color: #414141;
+	font-size: 200%;
+}
+
+.left-picture{
+	display: inline-block;
+	height: 100vh;
+	width: 40%;
+	position: fixed;
+	z-index: -1;
+}
+
+.links {
+    display: inline-flex;
+    padding-right: 2em;
+}
+
+.nav-content{
+	padding-left: 4vw;
+    animation-name: fadeIn;
+  	animation-duration: 3s;
+}
+
 .right-nav{
 	background-color: #efefef;
 	display: flex;
@@ -63,8 +104,4 @@ ul {
 	align-items: center;
     display: flex;
     justify-content: left;
-}
-
-.nav-content{
-	padding-left: 4vw;
 }
