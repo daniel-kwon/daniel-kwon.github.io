@@ -102,16 +102,52 @@ img{
 	width: 60%;
 	display: flex;
 	align-items: center;
-    display: flex;
     justify-content: left;
 }
 
 @media only screen and (max-device-width: 1440px) {
-  .right-nav{
-  	width: 100%;
-  }
-  .left-picture{
-  	width: 0%;
-  	visibility: hidden;
-  }
+	h1 {
+		font-size: 13vw;
+	}
+	h2 {
+		font-size: 5vw;
+	}
+	.description {
+		font-size: 5vw;
+	}
+
+	.fab {
+		font-size: 8vw;
+	}
+
+	.fab:hover {
+		font-size: 8vw;
+	}
+
+	.far {
+		font-size: 8vw;
+	}
+
+	.far:hover {
+		font-size: 8vw;
+	}
+
+	.left-picture{
+		width: 0%;
+		visibility: hidden;
+	}
+	
+	.links {
+ 		display: inline-flex;
+    	padding-right: 10vw;
+    	padding-top: 5vw;
+	}
+
+	.nav-content{
+		padding-left: 10vw;
+	}
+
+	.right-nav{
+		width: 100%;
+	}
 }
