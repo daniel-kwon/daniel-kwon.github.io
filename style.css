@@ -106,7 +106,7 @@ img{
     justify-content: left;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-device-width: 1440px) {
   .right-nav{
   	width: 100%;
   }
