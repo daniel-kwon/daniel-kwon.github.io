@@ -109,8 +109,14 @@ img{
 	h1 {
 		font-size: 13vw;
 	}
+
 	h2 {
 		font-size: 5vw;
+	}
+
+	img {
+		width: 0%;
+		visibility: hidden;
 	}
 	.description {
 		font-size: 5vw;
