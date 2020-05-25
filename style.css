@@ -1,159 +1,164 @@
 * {
   margin: 0;
   padding: 0;
-  border:0;
+  border: 0;
 }
 
 h1 {
-	color: #286DBB;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 500%;
-	line-height: 90%;
+  color: #286dbb;
+  font-family: "Inter", sans-serif;
+  font-size: 500%;
+  line-height: 90%;
 }
 
 h2 {
-	color: #286DBB;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 180%;
-	font-weight: lighter;
-	padding-bottom: 2vh;
+  color: #286dbb;
+  font-family: "Inter", sans-serif;
+  font-size: 180%;
+  font-weight: lighter;
+  padding-bottom: 2vh;
 }
 
 ul {
-	font-family: 'Montserrat', sans-serif;
-	list-style-type: none;
+  font-family: "Inter", sans-serif;
+  list-style-type: none;
 }
 
-img{
-	height:100%;
-	width:auto;
-	margin: auto;
-	position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    visibility: hidden;
-    animation-name: fadeIn;
-    animation-duration: 4s;
+img {
+  height: 100%;
+  width: auto;
+  margin: auto;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 4s;
 }
 
 @keyframes fadeIn {
-	from { opacity:0; } to { opacity:1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .description {
-	color: #414141;
-	font-size: 150%;
-	padding-top: .3em;
-	padding-bottom: .3em;
+  color: #414141;
+  font-size: 150%;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
-.div-table{
-	display: flex;
-	justify-content: flex-start;
-	padding-top: 1em;
+.div-table {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1em;
 }
 
 .fab {
-	color: #969696;
-	font-size: 200%;
+  color: #969696;
+  font-size: 200%;
 }
 
 .fab:hover {
-	color: #414141;
-	font-size: 200%;
+  color: #414141;
+  font-size: 200%;
 }
 
 .far {
-	color: #969696;
-	font-size: 200%;
+  color: #969696;
+  font-size: 200%;
 }
 
 .far:hover {
-	color: #414141;
-	font-size: 200%;
+  color: #414141;
+  font-size: 200%;
 }
 
-.left-picture{
-	display: inline-block;
-	height: 100vh;
-	width: 40%;
-	position: fixed;
-	z-index: -1;
+.left-picture {
+  display: inline-block;
+  height: 100vh;
+  width: 40%;
+  position: fixed;
+  z-index: -1;
 }
 
 .links {
-    display: inline-flex;
-    padding-right: 2em;
+  display: inline-flex;
+  padding-right: 2em;
 }
 
-.nav-content{
-	padding-left: 4vw;
-    animation-name: fadeIn;
-  	animation-duration: 3s;
+.nav-content {
+  padding-left: 4vw;
+  animation-name: fadeIn;
+  animation-duration: 3s;
 }
 
-.right-nav{
-	background-color: #efefef;
-	display: flex;
-	float: right;
-	height: 100vh;
-	width: 60%;
-	display: flex;
-	align-items: center;
-    justify-content: left;
+.right-nav {
+  background-color: #efefef;
+  display: flex;
+  float: right;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 @media only screen and (max-device-width: 1024px) {
-	h1 {
-		font-size: 13vw;
-	}
+  h1 {
+    font-size: 13vw;
+  }
 
-	h2 {
-		font-size: 5vw;
-	}
+  h2 {
+    font-size: 5vw;
+  }
 
-	img {
-		width: 0%;
-		visibility: hidden;
-	}
-	.description {
-		font-size: 5vw;
-	}
+  img {
+    width: 0%;
+    visibility: hidden;
+  }
+  .description {
+    font-size: 5vw;
+  }
 
-	.fab {
-		font-size: 8vw;
-	}
+  .fab {
+    font-size: 8vw;
+  }
 
-	.fab:hover {
-		font-size: 8vw;
-	}
+  .fab:hover {
+    font-size: 8vw;
+  }
 
-	.far {
-		font-size: 8vw;
-	}
+  .far {
+    font-size: 8vw;
+  }
 
-	.far:hover {
-		font-size: 8vw;
-	}
+  .far:hover {
+    font-size: 8vw;
+  }
 
-	.left-picture{
-		width: 0%;
-		visibility: hidden;
-	}
-	
-	.links {
- 		display: inline-flex;
-    	padding-right: 10vw;
-    	padding-top: 5vw;
-	}
+  .left-picture {
+    width: 0%;
+    visibility: hidden;
+  }
 
-	.nav-content{
-		padding-left: 10vw;
-	}
+  .links {
+    display: inline-flex;
+    padding-right: 10vw;
+    padding-top: 5vw;
+  }
 
-	.right-nav{
-		width: 100%;
-	}
+  .nav-content {
+    padding-left: 10vw;
+  }
+
+  .right-nav {
+    width: 100%;
+  }
 }
