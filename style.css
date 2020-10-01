@@ -5,14 +5,14 @@
 }
 
 h1 {
-  color: #286dbb;
+  color: #406196;
   font-family: "Inter", sans-serif;
   font-size: 500%;
   line-height: 90%;
 }
 
 h2 {
-  color: #286dbb;
+  color: #406196;
   font-family: "Inter", sans-serif;
   font-size: 180%;
   font-weight: lighter;
@@ -48,7 +48,7 @@ img {
 }
 
 .description {
-  color: #414141;
+  color: #1F1F1F;
   font-size: 150%;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
@@ -66,7 +66,7 @@ img {
 }
 
 .fab:hover {
-  color: #414141;
+  color: #1F1F1F;
   font-size: 200%;
 }
 
@@ -76,7 +76,7 @@ img {
 }
 
 .far:hover {
-  color: #414141;
+  color: #1F1F1F;
   font-size: 200%;
 }
 
@@ -100,7 +100,7 @@ img {
 }
 
 .right-nav {
-  background-color: #efefef;
+  background-color: #FFFFFF;
   display: flex;
   float: right;
   height: 100vh;
