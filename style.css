@@ -68,7 +68,7 @@ img {
 .links {
   display: inline-flex;
   font-size: 110%;
-  padding-right: 2vw;
+  padding-right: 1vw;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
 }
@@ -122,7 +122,8 @@ img {
   --initialTextColor: #406196;
   --slideTextColor: #fff;
 
-  --initialBgColor: #ebebeb;
+  /* --initialBgColor: #ebebeb; */
+  --initialBgColor: #fff;
   --slideBgColor: #406196;
 
   color: var(--initialTextColor);
@@ -135,9 +136,9 @@ img {
     var(--slideBgColor) 100%
   );
   background-size: 400%;
-  transition: background-position 0.3s cubic-bezier(0.47, 0.1, 1, 0.63),
-    color 0.2s linear;
-  transition-delay: 0s, 0.15s;
+  transition: background-position 0.1s cubic-bezier(0.47, 0.1, 1, 0.63),
+    color 0.1s linear;
+  transition-delay: 0s, 0.1s;
 }
 
 .bg_slider:hover {
@@ -255,7 +256,7 @@ img {
   .links {
     display: inline-flex;
     font-size: 110%;
-    padding-right: 2vw;
+    padding-right: 0.5vw;
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
   }
